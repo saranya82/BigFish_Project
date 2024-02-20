@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard.ComboItem">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_18"
+        />
+
+    <TextView
+        android:id="@+id/combooffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:text="Combo Offer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/comboid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/combooffer"
+        android:text="Combo Id"
+        android:paddingTop="8dp"/>
+
+
+
+</RelativeLayout>
+
+

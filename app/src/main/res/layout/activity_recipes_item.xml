@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".Recipes1.RecipesItemActivity">
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_18"
+             />
+
+        <TextView
+            android:id="@+id/FishCurry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView33"
+            android:text="Fish Curry"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/recipeid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/FishCurry"
+            android:text="Recipe Id"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/ingredients2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recipeid"
+            android:text="Ingredients go here"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ingredients2"
+            android:text="Description goes here"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description2"
+            android:text="Time: 35 min"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/cal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeTextView"
+            android:text="Calories: 10 cals"
+            android:paddingTop="8dp"/>
+
+</RelativeLayout>
+

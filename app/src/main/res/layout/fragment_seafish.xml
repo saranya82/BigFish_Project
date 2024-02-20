@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FreshFish.Seafish">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/catla"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/catlaa1"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:text="Catla( 1 kg to 1.9 kg)"
+            android:textSize="11dp"
+            android:layout_marginTop="105dp" />
+        <TextView
+            android:id="@+id/catlaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="134dp"
+            app:srcCompat="@drawable/ic_rupee" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="134dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/catl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="135dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="168dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="131dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/img_1" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="Indian Mackerel / Ayala /Bangda /Ayila(large) 6+count/kg)"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/ayala1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="155dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/ayalaa"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/ic_rupee" />
+
+        <ImageView
+            android:id="@+id/mackerel"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/ayala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="155dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="260dp">
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            app:srcCompat="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:text="Pink  perch/Kilimeen /Sankara meen /Thread Finned Bream(Large)(180g to 310g)"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/kilimeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="155dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/kilimeen1"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="159dp"
+            app:srcCompat="@drawable/ic_rupee" />
+
+        <ImageView
+            android:id="@+id/kili"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/kili1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="155dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+      android:layout_marginTop="260dp"
+        android:layout_marginLeft="190dp">
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:textSize="11dp"
+            android:text="Tilapia/ Jilebi Fish(100g to 240g)" />
+        <TextView
+            android:id="@+id/jilebi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="125dp"
+            android:text="179.00/ 500g"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/jilebi1"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="129dp"
+            app:srcCompat="@drawable/ic_rupee" />
+        <ImageView
+            android:id="@+id/thilapia"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="125dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/tilapia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="125dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/catla1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="125dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="109dp"
+            android:layout_height="99dp"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:textSize="11dp"
+            android:text="Catla (1kg to 1.9 kg)" />
+
+
+        <ImageView
+            android:id="@+id/cat1"
+            android:layout_width="22dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="159dp"
+            app:srcCompat="@drawable/ic_rupee" />
+
+        <TextView
+            android:id="@+id/catla11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="12dp"
+            android:text="199.00/500g"
+            android:textSize="10dp" />
+        <ImageView
+            android:id="@+id/catl1"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="125dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="184dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="460dp">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="124dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/img_1" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="Indian Mackerel / Ayala /Bangda /Ayila(large) 6+count/kg)"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/ayala2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="155dp"
+            android:text="199.00/ 500g"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/ayalaf"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/ic_rupee" />
+
+        <ImageView
+            android:id="@+id/ayala11"
+            android:layout_width="16dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+        <TextView
+            android:id="@+id/ayalaa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="155dp"
+            android:text="209.00"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

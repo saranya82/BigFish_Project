@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PasswordUpdation.EditProfile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="#2C4FB6">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_arrow_left"
+            />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#0F9BD1"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="15dp">
+    <EditText
+        android:id="@+id/editxtuserid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:hint="User Id"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editxtfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="15dp"
+        android:hint="First Name"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editxtlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="15dp"
+        android:hint="Last Name"
+        android:textColor="@color/black" />
+
+
+
+    <EditText
+        android:id="@+id/editxtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="15dp"
+        android:hint="Email"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editxtmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="15dp"
+        android:hint="Mobile Number"
+        android:textColor="@color/black" />
+
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:text="Update"
+        android:textSize="15dp"
+        android:backgroundTint="#104077"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"/>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
+
+</LinearLayout>

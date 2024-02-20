@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#2C4FB6">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_arrow_left"
+            />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#0F9BD1"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:hint="First Name *" />
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:hint="Last Name *" />
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:hint="E-mail *" />
+    <EditText
+        android:id="@+id/mnumber"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Mobile Number *" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/pswd"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:hint="Password *" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_visible" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/type1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:hint="Type *" />
+    <EditText
+        android:id="@+id/referalcode"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="25dp"
+        android:hint="Referal code *" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:id="@+id/register"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="#2C4FB6"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

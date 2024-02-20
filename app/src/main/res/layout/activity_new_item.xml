@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FreshArraivals.NewItemActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_13"
+        />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView33"
+        android:text="Mackerel"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/product_id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FishCurry"
+        android:text="Product Id : 59"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/weight_class1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recipeid"
+        android:text="Weight_class"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/size_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredients2"
+        android:text="Size text : Whole Price"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description2"
+        android:text="Price : 132.67"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/stock_status1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeTextView"
+        android:text="Stock status : In Stock"
+        android:paddingTop="8dp"/>
+
+</LinearLayout>

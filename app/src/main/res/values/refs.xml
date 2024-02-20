@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="re1" />
+    <drawable name="re2" />
+    <drawable name="re3" />
+    <drawable name="re4" />
+    <drawable name="re5" />
+    <drawable name="re6" />
+    <drawable name="img4" />
+    <drawable name="img5" />
+    <drawable name="img6" />
+    <drawable name="placeholder_image" />
+    <drawable name="error_image" />
+    <drawable name="default_image" />
+    <drawable name="imageView33" />
+</resources>
